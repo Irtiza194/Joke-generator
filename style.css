@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #252525;
+}
+#title {
+  text-align: center;
+  margin-top: 2em;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+}
+.container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: #333;
+  margin-top: 3em;
+  border-radius: 1em;
+  width: 50em;
+  height: 30em;
+}
+.result-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result {
+  width: 40em;
+  height: 17em;
+  background-color: #fff;
+  border-radius: 1em;
+  margin-top: 3em;
+}
+p {
+  margin-top: 7em;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background: #fff;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  margin-top: 3em;
+  font-family: "Roboto Mono", monospace;
+}
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+@media screen and (max-width: 704px) {
+  .box {
+    background-color: #333;
+    margin-top: 3em;
+    border-radius: 1em;
+    width: 40em;
+    height: 30em;
+  }
+  .result-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .result {
+    width: 30em;
+    height: 17em;
+    background-color: #fff;
+    border-radius: 1em;
+    margin-top: 3em;
+  }
+  p {
+    margin-top: 7em;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    margin-inline: 40px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    background: #fff;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    margin-top: 3em;
+    font-family: "Roboto Mono", monospace;
+  }
+  button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+}
+@media screen and (max-width: 512px) {
+  .box {
+    background-color: #333;
+    margin-top: 3em;
+    border-radius: 1em;
+    width: 30em;
+    height: 30em;
+  }
+  .result-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .result {
+    width: 20em;
+    height: 17em;
+    background-color: #fff;
+    border-radius: 1em;
+    margin-top: 3em;
+  }
+  p {
+    margin-top: 5em;
+    margin-inline: 20px;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    background: #fff;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    margin-top: 3em;
+    font-family: "Roboto Mono", monospace;
+  }
+  button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+}
+@media screen and (max-width: 340px) {
+  .box {
+    background-color: #333;
+    margin-top: 3em;
+    border-radius: 1em;
+    width: 20em;
+    height: fit-content;
+  }
+  .result-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .result {
+    width: 15em;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 1em;
+    margin-top: 2em;
+  }
+  p {
+    margin-top: 2em;
+    margin-inline: 20px;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    background: #fff;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-family: "Roboto Mono", monospace;
+  }
+  button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+}
